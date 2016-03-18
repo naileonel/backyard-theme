@@ -1,0 +1,82 @@
+$veinte:20px;
+$cuarenta:40px;
+$uno:1px;
+.fondo{
+	background-image: url('../images/pan.jpg');
+	margin-left:1%;
+	background-position: center; 
+	background-repeat: no-repeat;
+	padding-bottom:25%;
+	margin-bottom: 10%;
+	width: 97%;
+	height: 500px;
+}
+i{
+	margin-left:$veinte;
+}
+.black{
+	color:rgba(0,0,0,.5);
+}
+.letra{
+	color:gray;
+}
+.mt-40{
+	margin-top:$cuarenta;
+}
+img{
+	width: 100%;
+	margin-bottom:$cuarenta!important; 
+}
+.borde{
+	margin-top: 50px;
+	margin-bottom:$veinte;
+	padding-bottom:$veinte;
+	background-color:#E6E6E6; 
+}
+.bordee{
+	background-color: #F2F2F2;
+	padding-top: $veinte;
+
+}
+button{
+	border-radius: $veinte;
+	border-style:$uno solid #0000FF !important;
+	background-color: transparent;
+	width: 150px;
+	padding: 5px;
+	color: #0000FF;
+}
+.mt-5{
+	margin-bottom: 3em;
+	margin-top: 3em;
+}
+.mt-4{
+	margin-top: 6em;
+}
+.mov{
+	margin-left: 4em;
+}
+.movi{
+	margin-left: 5em;
+}
+.colr{
+	background-color:#2E64FE;
+	color: white; 
+}
+.dividir{
+	border-top:$uno solid gray;
+	border-left:$uno solid gray;  
+}
+p{
+	color: #585858;
+}
+h3{
+	color: #585858;
+}
+h4{
+	color: #585858;
+}
+h5{
+	color: #1C1C1C;
+}
+
